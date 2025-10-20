@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BereLuxe Shop</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      margin: 0;
+      background-color: #f7f8fa;
+      color: #333;
+    }
+    header {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 1.5rem 0;
+      font-size: 1.5rem;
+      letter-spacing: 1px;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 30px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+    .info {
+      padding: 15px;
+    }
+    .info h3 {
+      margin: 0;
+      font-size: 1.2rem;
+      color: #111;
+    }
+    .info p {
+      margin: 5px 0;
+      font-size: 0.95rem;
+      color: #555;
+    }
+    .price {
+      font-weight: bold;
+      color: #e91e63;
+      margin-top: 10px;
+    }
+    .whatsapp-btn {
+      display: block;
+      text-align: center;
+      background-color: #25d366;
+      color: white;
+      padding: 10px;
+      text-decoration: none;
+      border-radius: 0 0 15px 15px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .whatsapp-btn:hover {
+      background-color: #1ebd5a;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #777;
+      background: #222;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <header>✨ BereLuxe Shop ✨</header>
+
+  <div class="container">
+    <!-- PRODUCTO 1 -->
+    <div class="card">
+      <img src="https://scontent.fntr1-1.fna.fbcdn.net/v/t39.30808-6/514731547_122119759082876343_6804608622909241340_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=88LtJN9xPmEQ7kNvwHR8YAp&_nc_oc=Adkkp6cwGyj39ASWsrieFwBHD7qQvgsz3Il6TfPbwNs4tFNwLiWtMmeNEYRPwXPLLVU&_nc_zt=23&_nc_ht=scontent.fntr1-1.fna&_nc_gid=ykttdRIEZDqQQnaQGBqKHQ&oh=00_AfevBV67Z_zqBfHkx4gBaShhULoF72gFK3KC6GNyp_8Lcw&oe=68FB538C" alt="Mi Foto de Facebook" width="1080 x 1350" style="border-rectangle:50%;">
+      <div class="info">
+        <h3>Blusa Blanca de puntos</h3>
+        <p>Talla: M</p>
+        <p class="price">$50 MXN</p>
+      </div>
+      <a href="https://wa.me/528132427195?text=Hola!%20Me%20interesa%20la%20Blusa%20Blanca%20Elegante" target="_blank" class="whatsapp-btn">Informacion por WhatsApp</a>
+    </div>
+
+    <!-- PRODUCTO 2 -->
+    <div class="card">
+      <img src="https://scontent.fntr1-2.fna.fbcdn.net/v/t39.30808-6/514340331_122123213474873147_8868448848927960761_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=xY5kPQz0xPUQ7kNvwE4dnK8&_nc_oc=AdlkmDwVjh7vyfdmksVIu15qrTo5zCi_iPEk0iheQtOgI2Ae-cgmKafLHqGdovsIJ7o&_nc_zt=23&_nc_ht=scontent.fntr1-2.fna&_nc_gid=5OvdDJNwTFTX5QiMlfNIhg&oh=00_Afc3UMEruykljQe7ydHfIlXzXQxtflM8LBgptLtH2M6OCg&oe=68FB304E" width="1080 x 1350" style="border-rectangle:50%;">
+      <div class="info">
+        <h3>chaleco</h3>
+        <p>Talla: M</p>
+        <p class="price">$35 MXN</p>
+      </div>
+      <a href="https://wa.me/528132427195?text=Hola!%20Me%20interesa%20el%20Pantalón%20de%20Mezclilla" target="_blank" class="whatsapp-btn">Comprar por WhatsApp</a>
+    </div>
+
+  <!-- PRODUCTO 3 -->
+    <div class="card">
+      <img src="https://scontent.fntr1-2.fna.fbcdn.net/v/t39.30808-6/514415251_122123212730873147_1342841429765611102_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=SMkKEXFBEpoQ7kNvwHox6JK&_nc_oc=Adn_AhW3Nbl_KpFBhdDl5WMCIEsQeVFpkvhE9rO2Z8Y24qr0zQnhN4FtupETXuv4HHo&_nc_zt=23&_nc_ht=scontent.fntr1-2.fna&_nc_gid=Uz6Mxbcx-r6Rop4oVgb3QQ&oh=00_AfdpTl2A-tP3-9B4FStQ3t0CSFh6RBs7HYu-Ra9WVtwzdg&oe=68FB4BBB" width="1080 x 1350" style="border-rectangle:50%;">
+      <div class="info">
+        <h3>chaleco</h3>
+        <p>Talla: M</p>
+        <p class="price">$35 MXN</p>
+      </div>
+      <a href="https://wa.me/528132427195?text=Hola!%20Me%20interesa%20el%20Pantalón%20de%20Mezclilla" target="_blank" class="whatsapp-btn">Comprar por WhatsApp</a>
+    </div>
+
+  <footer>
+    © 2025 Mi Tienda de Ropa - Todos los derechos reservados
+  </footer>
+
+</body>
+</html>
